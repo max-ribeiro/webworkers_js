@@ -1,0 +1,24 @@
+{
+  "name": "webworker_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx browser-sync -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/max-ribeiro/webworkers_js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/max-ribeiro/webworkers_js/issues"
+  },
+  "homepage": "https://github.com/max-ribeiro/webworkers_js#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.11"
+  }
+}
