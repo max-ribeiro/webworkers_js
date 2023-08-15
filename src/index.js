@@ -7,3 +7,10 @@ import View from "./view.js"
 const worker = new Worker('./src/worker.js', {
     type: "module"
 })
+
+worker.postMessage('Bora!');
+
+Controller.init({
+    view: new View(),
+    worker,
+});

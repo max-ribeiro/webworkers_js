@@ -2,6 +2,6 @@ console.log("I'm alive!");
 
 postMessage('READY!');
 
-onmessage = (msg) => {
-    console.log('hey from worker', msg);
+onmessage = ({data}) => {
+    console.log('hey from worker', data);
 }
